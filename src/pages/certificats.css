@@ -1,0 +1,9 @@
+.certificats {
+    font-size: 30px;
+    margin: 50px;
+}
+
+canvas.react-pdf__Page__canvas {
+    border: 2px solid black;
+    margin: 30px 0;
+}
