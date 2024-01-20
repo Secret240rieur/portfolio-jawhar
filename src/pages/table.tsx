@@ -15,8 +15,8 @@ const Table = () => {
   return (
     <div className="h-full">
       <div className="Table">
-        <h2>My studies</h2>
-        <table id="table2">
+        <h2 style={{ fontSize: "20px" }}>My studies</h2>
+        <table>
           <tr>
             {table2tr1.map((value, i) => (
               <th key={i}>{value}</th>

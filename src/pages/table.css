@@ -1,48 +1,46 @@
 .Table {
-    font-size: 30px;
-    background-color: aquamarine;
-    margin: 200px 40px;
-
+  font-size: 2svw;
+  background-color: aquamarine;
+  margin: 100px 40px;
 }
 
 h2 {
-    margin-left: 20px;
-    font-weight: bolder;
+  margin-left: 20px;
+  font-weight: bolder;
 }
 
 table {
-    border-collapse: collapse;
-    border: 5px solid black;
-    background-color: white;
+  border-collapse: collapse;
+  border: 5px solid black;
+  background-color: white;
+  width: 10vw;
 }
-
-
 
 td,
 th {
-    border: 3px dotted black;
-    text-align: left;
-    padding: 8px;
-    text-align: center;
+  border: 3px dotted black;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
 }
 
 th {
-    border: 5px solid black;
-    background-color: rgb(137, 87, 183);
+  border: 5px solid black;
+  background-color: rgb(137, 87, 183);
 }
 
 td:first-child {
-    background-color: rgb(200, 122, 122);
+  background-color: rgb(200, 122, 122);
 }
 
-td:first-child+td {
-    background-color: rgb(74, 156, 128);
+td:first-child + td {
+  background-color: rgb(74, 156, 128);
 }
 
-td:first-child+td+td {
-    background-color: salmon;
+td:first-child + td + td {
+  background-color: salmon;
 }
 
 #last-td {
-    background-color: white;
+  background-color: white;
 }
