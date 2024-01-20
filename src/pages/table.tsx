@@ -1,7 +1,7 @@
 import "./table.css";
 import Navbardown from "./navbardown";
 import { CommentSection } from "./commentSection";
-//
+
 const Table = () => {
   const table2tr1 = [
     "Certificat",
