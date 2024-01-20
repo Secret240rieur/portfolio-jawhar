@@ -1,151 +1,150 @@
 .cv {
-    font-size: 30px;
-    /* margin-top: -30px; */
-    /* margin-bottom: 50px; */
-    margin: 0;
-
+  font-size: 20px;
+  /* margin-top: -30px; */
+  /* margin-bottom: 50px; */
+  margin: 0;
 }
 
 body {
-    display: grid;
-    grid-template-rows: auto;
-    background-color: aquamarine;
-    min-width: 700px;
+  display: grid;
+  grid-template-rows: auto;
+  background-color: aquamarine;
+  /* min-width: 700px; */
 }
 
-
 .Header {
-    width: 100%;
-    display: grid;
-    grid-template-areas:
-        '1 2 3 4 5 pdp';
-    /* background-image: url("https://www.verato.com/wp-content/uploads/2017/11/cloud-blog.jpeg");
+  width: 100%;
+  display: grid;
+  grid-template-areas: "1 2 3 4 5 pdp";
+  /* background-image: url("https://www.verato.com/wp-content/uploads/2017/11/cloud-blog.jpeg");
     background-position: center;
     background-size: cover; */
-    align-items: center;
-    justify-content: center;
-    /* min-width: 700px; */
-
+  align-items: center;
+  justify-content: center;
+  /* min-width: 700px; */
 }
 
 .Header a {
-    /* text-decoration: none; */
-    color: black;
+  /* text-decoration: none; */
+  color: black;
 }
 
 .description {
-    border: 2px solid grey;
-    background-color: grey;
-    padding: 0 25px;
-    display: grid;
+  border: 2px solid grey;
+  background-color: grey;
+  padding: 0 25px;
+  display: grid;
 }
 
 .info {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 40px;
-    padding-left: 0px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 40px;
+  padding-left: 0px;
+  /* overflow-x: scroll; */
+  /* white-space: nowrap; */
+}
+.info a {
+  white-space: nowrap;
 }
 
 .address {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .pdp_box {
-    margin: 50px auto;
-    border: 7px solid black;
-    height: 200px;
-    width: 150px;
-    overflow: hidden;
+  margin: 50px auto;
+  border: 7px solid black;
+  height: 200px;
+  width: 150px;
+  overflow: hidden;
 }
 
 .pdp_box img {
-    height: 200px;
-    width: 150px;
+  height: 200px;
+  width: 150px;
 }
 
 .grid-item {
-    margin-bottom: 50px;
-    /* border: 10px dotted red; */
+  margin-bottom: 50px;
+  /* border: 10px dotted red; */
 }
 
 .item-box {
-    margin: 5px auto;
-    width: 80%;
-    line-height: 35px;
-    font-style: italic;
+  margin: 5px auto;
+  width: 80%;
+  line-height: 35px;
+  font-style: italic;
 }
 
 .sommaire {
-    width: 80%;
-    margin: 30px auto;
-    /* font-size: 20px; */
-    font-weight: bold;
-    margin-bottom: 100px;
+  width: 80%;
+  margin: 30px auto;
+  /* font-size: 20px; */
+  font-weight: bold;
+  margin-bottom: 100px;
 }
 
 .sommaire h2 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .sommaire a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .title {
-    width: 80%;
-    margin: 30px auto;
-    /* font-size: 50px; */
-    font-weight: bold;
-    border-bottom: 2px solid grey;
+  width: 80%;
+  margin: 30px auto;
+  /* font-size: 50px; */
+  font-weight: bold;
+  border-bottom: 2px solid grey;
 }
 
-
 .grid-experience-desc {
-    font-weight: bolder;
-    margin: 5px 0;
+  font-weight: bolder;
+  margin: 5px 0;
+}
+
+/* .comment {
+  font-style: italic;
+  margin-top: 20px;
+} */
+
+.grid-education-section {
+  display: grid;
+  margin: 5px 0;
+  width: 80%;
 }
 
 .comment {
-    font-style: italic;
-    margin-top: 20px;
-}
-
-
-
-.grid-education-section {
-    display: grid;
-    margin: 5px 0;
-    width: 80%;
-}
-
-.grid-education-section .comment {
-    display: list-item;
-    text-indent: 20px;
+  /* display: list-item; */
+  text-indent: 40px;
 }
 
 .grid-school-desc {
-    display: grid;
-    grid-template-columns: 100px 100px;
-    font-weight: bolder;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  font-weight: bolder;
 }
 
-
 .Certificats {
-    line-height: 1.5;
+  /* line-height: 1.5; */
 }
 
 .Certificats a {
-    text-decoration: none;
-    color: black;
+  font-size: medium;
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
 }
 
 .leadership-desc {
-    width: 80%;
-    display: grid;
+  width: 80%;
+  display: grid;
 }
 
 .leadership-desc li {
-    line-height: 25px;
+  line-height: 25px;
 }
